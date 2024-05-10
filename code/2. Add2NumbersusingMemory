@@ -1,0 +1,6 @@
+LDA 2050H     ;Load  valu stored in memory location 2050 to accumilator
+MOV B, A      ;Move the Value of A to B
+LDA 2051H     ;Load  valu stored in memory location 2051 to accumilator
+ADD B         ;Add Value of Register B With Accumulator, result is in accumulator
+STA 2052H     ;Store the result in accomulator to memory location 2052
+HLT           ;HALT the program
