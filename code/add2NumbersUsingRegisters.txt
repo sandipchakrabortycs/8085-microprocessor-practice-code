@@ -1,5 +1,5 @@
-MVI B, 5H
-MVI A, 4H
-ADD B
-STA 2050H
-HLT
+MVI B, 5H     ;Load 5 to Register B
+MVI A, 4H     ;Load 4 to Accumulator
+ADD B         ;Add Value of Register B With Accumulator, result is in accumulator
+STA 2050H     ;Store the result in accomulator to memory location 2050
+HLT           ;HALT the program
