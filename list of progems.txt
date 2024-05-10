@@ -1,3 +1,4 @@
 This is the list of assambly programs for 8085 microprosessor
 
-1. Add two Numbers using Registers
+1. Add two numbers using Registers
+2. Add two numbers stored in memory 
