@@ -1,1 +1,5 @@
-
+MVI B, 5H
+MVI A, 4H
+ADD B
+STA 2050H
+HLT
